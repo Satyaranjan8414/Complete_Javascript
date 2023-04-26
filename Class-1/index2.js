@@ -10,3 +10,4 @@ let lastname=firstname.slice(0,5)
 
 console.log(Number.MAX_SAFE_INTEGER);
 
+
