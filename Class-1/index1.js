@@ -4,3 +4,9 @@
 // example:
 // 1value 
 //Value
+
+//We cannot Use space instate of space we can use for underscores
+// var first_name="Satyaranjan"; -Snake case
+//var lastName="Maity"; - CamelCase
+
+
