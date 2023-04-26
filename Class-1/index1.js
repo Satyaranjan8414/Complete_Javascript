@@ -10,3 +10,8 @@
 //var lastName="Maity"; - CamelCase
 
 
+// Declare Variable with let keyword and var keywords
+
+let name="Satya"
+ name="Biplab"
+console.log(name)
