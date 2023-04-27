@@ -44,6 +44,15 @@ switch (day) {
     case 2:
         console.log("Monday");
         break;
+    case 3:
+        console.log("tuesday");
+        break;
+    case 4:
+        console.log("wednesday");
+        break;
+    case 5:
+        console.log("thursday");
+        break;
 
     default:
         console.log("Not a valid Input");
