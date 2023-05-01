@@ -15,6 +15,9 @@
 
 let name=["Satya","Santosh","Govind"]
 
-name.push("sai")
-name.pop()
+// name.push("sai")
+// name.pop()
+// console.log(name)
+
+name.unshift("Rai")
 console.log(name)
