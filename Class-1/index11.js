@@ -25,12 +25,23 @@
 
 // referance Type
 
-let arr1=["Satya","Sai"]
-let arr2=arr1;
-console.log(arr1)
-console.log(arr2)
-arr1.push("Goi")
+// let arr1=["Satya","Sai"]
+// let arr2=arr1;
+// console.log(arr1)
+// console.log(arr2)
+// arr1.push("Goi")
 
-console.log(arr1)
-console.log(arr2)
+// console.log(arr1)
+// console.log(arr2)
 
+
+// ForLoop in array
+
+let name=["Satya","Santosh","Govind"]
+
+for(let i=0;i<name.length;i++){
+    console.log(name[i].toUpperCase())
+    
+}
+
+clg
