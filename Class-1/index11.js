@@ -44,4 +44,4 @@ for(let i=0;i<name.length;i++){
     
 }
 
-clg
+console.log("Thanking You ");
