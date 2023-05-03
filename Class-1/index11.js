@@ -37,11 +37,41 @@
 
 // ForLoop in array
 
-let name=["Satya","Santosh","Govind"]
+// let name=["Satya","Santosh","Govind"]
 
-for(let i=0;i<name.length;i++){
-    console.log(name[i].toUpperCase())
+// for(let i=0;i<name.length;i++){
+//     console.log(name[i].toUpperCase())
+    
+// }
+
+// console.log("Thanking You ");
+
+// const name="satya"
+// name.push("ram")
+// console.log(name)
+
+//To push inside const 
+// const name=["Satya","ram","Rahit"]
+// name.push("Lulu")
+// console.log(name)
+
+//For OF loops i array
+
+// const names=["Satya","ram","Rahit"]
+// const newname=[];
+
+// for(let all of names){
+//     newname.push(all.toUpperCase("Rahul"))
+    
+// }
+// console.log(newname)
+
+const names=["Satya","ram","Rahit"]
+ const newname=[];
+
+for(let all in names){
+    newname.push(names[all].toUpperCase())
     
 }
+console.log(newname)
 
-console.log("Thanking You ");
