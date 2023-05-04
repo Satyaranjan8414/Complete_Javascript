@@ -55,20 +55,20 @@
 
 // arrow Function 
 
-const findThevalue=(arr,target)=>{
-    for(let i=0;i<arr.length;i++){
-        if(arr[i]===target){
-            return i;
-        }
+// const findThevalue=(arr,target)=>{
+//     for(let i=0;i<arr.length;i++){
+//         if(arr[i]===target){
+//             return i;
+//         }
            
         
-    }
-    return -1;
-}
-let arr=[1,2,3,4,6,5]
-// let target=4;
-let newvalue=findThevalue(arr,4)
-console.log(newvalue)
+//     }
+//     return -1;
+// }
+// let arr=[1,2,3,4,6,5]
+// // let target=4;
+// let newvalue=findThevalue(arr,4)
+// console.log(newvalue)
 
 
 
@@ -76,5 +76,34 @@ console.log(newvalue)
 //     console.log("Hi")
 // }
 // raj()
+
+//Hoisting :iF we want to call before intialization anything then its called
+// hoisting so make sure You are calling any function after Intialization  
+
+// Ex
+// console.log(name)
+// const name="satya"
+
+// console.log(name)
+
+
+//Function Inside another Function 
+
+const app=()=>{
+    const add=(a,b)=>{
+        console.log(a+b)
+    }
+    const name=()=>{
+        console.log("Hello My Name is Satyaranjan Maity")
+    }
+    const baby=()=>{
+        console.log("Baby Ko bass Pashand Hai.....")
+    }
+    console.log("Hi From APP")
+    add(2,4)
+    name()
+    baby()
+}
+app()
 
 
