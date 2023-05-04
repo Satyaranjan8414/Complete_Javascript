@@ -81,10 +81,11 @@ const user = [
     age: 23,
   },
   {
-    name: "Satya",
+    name: "Selu",
     gender: "male",
-    age: 23,
+    age: 21,
   },
 ];
-
-console.log(user);
+for(let i=0;i<user.length;i++){
+  console.log(user[i])
+}
