@@ -130,12 +130,49 @@
 
 
 //Rest Parameters
-function fun(a,b,...c){
-    console.log(a)
-    console.log(b)
-    console.log(c)
+// function fun(a,b,...c){
+//     console.log(a)
+//     console.log(b)
+//     console.log(c)
+// }
+// fun(1,5,6,5,6,7,9,3,578,89)
+
+// let obj={
+//     name:"Satya",
+//     gender:"male"
+
+// }
+
+// function Dettails({name,gender}){
+//     console.log(name)
+//     console.log(gender)
+// }
+// Dettails(obj)
+
+
+// callBack Function 
+
+// function fun(){
+//     console.log("Hi From Fun")
+   
+// }
+
+// function fun2(callback){
+//     console.log("Hi From fun2")
+// }
+
+// fun(fun2)
+
+
+// Function Returning Function 
+
+
+
+function fun2(){
+    function fun3(){
+        return "Hello Folks"
+    }
+    return fun3;
 }
-fun(1,5,6,5,6,7,9,3,578,89)
-
-
-
+const ans=fun2()
+console.log(ans())
