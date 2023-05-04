@@ -106,25 +106,36 @@
 // }
 // app()
 
-// LEXICAL SCOPE
+// // LEXICAL SCOPE
 
 
-// Example with code
-const name="Love You Javascript" //Global Scope
-function myapp(){
-    // const name="Love You Javascript" //LEXICAL SCOPE
-    console.log("Hi From Myappp")
-    const myfun=()=>{
-        // const name="Love You Javascript" //LEXICAL SCOPE 
-        const myfun2=()=>{
+// // Example with code
+// const name="Love You Javascript" //Global Scope
+// function myapp(){
+//     // const name="Love You Javascript" //LEXICAL SCOPE
+//     console.log("Hi From Myappp")
+//     const myfun=()=>{
+//         // const name="Love You Javascript" //LEXICAL SCOPE 
+//         const myfun2=()=>{
             
-        // const name="Love You Javascript" //LEXICAL SCOPE  
-        console.log("Hi From my fun " ,name)
-        }
-      myfun2()
-    }
-    myfun()
+//         // const name="Love You Javascript" //LEXICAL SCOPE  
+//         console.log("Hi From my fun " ,name)
+//         }
+//       myfun2()
+//     }
+//     myfun()
+// }
+// myapp()
+
+
+
+//Rest Parameters
+function fun(a,b,...c){
+    console.log(a)
+    console.log(b)
+    console.log(c)
 }
-myapp()
+fun(1,5,6,5,6,7,9,3,578,89)
+
 
 
