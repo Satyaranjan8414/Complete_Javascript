@@ -89,21 +89,42 @@
 
 //Function Inside another Function 
 
-const app=()=>{
-    const add=(a,b)=>{
-        console.log(a+b)
+// const app=()=>{
+//     const add=(a,b)=>{
+//         console.log(a+b)
+//     }
+//     const name=()=>{
+//         console.log("Hello My Name is Satyaranjan Maity")
+//     }
+//     const baby=()=>{
+//         console.log("Baby Ko bass Pashand Hai.....")
+//     }
+//     console.log("Hi From APP")
+//     add(2,4)
+//     name()
+//     baby()
+// }
+// app()
+
+// LEXICAL SCOPE
+
+
+// Example with code
+const name="Love You Javascript" //Global Scope
+function myapp(){
+    // const name="Love You Javascript" //LEXICAL SCOPE
+    console.log("Hi From Myappp")
+    const myfun=()=>{
+        // const name="Love You Javascript" //LEXICAL SCOPE 
+        const myfun2=()=>{
+            
+        // const name="Love You Javascript" //LEXICAL SCOPE  
+        console.log("Hi From my fun " ,name)
+        }
+      myfun2()
     }
-    const name=()=>{
-        console.log("Hello My Name is Satyaranjan Maity")
-    }
-    const baby=()=>{
-        console.log("Baby Ko bass Pashand Hai.....")
-    }
-    console.log("Hi From APP")
-    add(2,4)
-    name()
-    baby()
+    myfun()
 }
-app()
+myapp()
 
 
