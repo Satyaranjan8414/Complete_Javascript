@@ -31,4 +31,44 @@ let obj={
    [ key2]:Value2,
 }
 
-console.log(obj);
+// console.log(obj);
+
+
+//Apred Operators
+
+const obj1={
+    name1:"apred",
+    age1:22
+};
+const obj2={
+    name:"paped",
+    age:25
+};
+
+const newobj={...obj1,...obj2}
+console.log(newobj);
+
+
+//Object Destructuring 
+
+const school={
+    name1:"Raju",
+    name2:"Rahul"
+}
+
+const {name1:var1,name2:var2}=school;
+console.log(var1);
+console.log(var2);
+
+
+
+
+// const school2={
+//     name1:"Raju",
+//     name2:"Rahul"
+// }
+
+// const {name1:var2,name2:var3}=school;
+// console.log(var1);
+// console.log(var2);
+
