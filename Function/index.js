@@ -38,7 +38,24 @@
 
 //fIND THE target value
 
-function findThevalue(arr,target){
+// const findThevalue=function(arr,target){
+//     for(let i=0;i<arr.length;i++){
+//         if(arr[i]===target){
+//             return i;
+//         }
+           
+        
+//     }
+//     return -1;
+// }
+// let arr=[1,2,3,4,6,5]
+// // let target=4;
+// let newvalue=findThevalue(arr,4)
+// console.log(newvalue)
+
+// arrow Function 
+
+const findThevalue=(arr,target)=>{
     for(let i=0;i<arr.length;i++){
         if(arr[i]===target){
             return i;
@@ -52,3 +69,12 @@ let arr=[1,2,3,4,6,5]
 // let target=4;
 let newvalue=findThevalue(arr,4)
 console.log(newvalue)
+
+
+
+// const raj=()=>{
+//     console.log("Hi")
+// }
+// raj()
+
+
