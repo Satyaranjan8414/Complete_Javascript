@@ -176,3 +176,5 @@ function fun2(){
 }
 const ans=fun2()
 console.log(ans())
+
+
