@@ -50,18 +50,41 @@
 // console.log(res)
 
 
-const user=[
-    {name:"Satya",age:22},
-    {name:"santosh",age:25},
-    {name:"Govind",age:30},
-    {name:"Shravani",age:26},
-];
+// const user=[
+//     {name:"Satya",age:22},
+//     {name:"santosh",age:25},
+//     {name:"Govind",age:30},
+//     {name:"Shravani",age:26},
+// ];
 
-let alluser=user.map((user)=>{
-    return `Name:${user.name} age: ${user.age}` 
-})
+// let alluser=user.map((user)=>{
+//     return `Name:${user.name} age: ${user.age}` 
+// })
 
-console.log(alluser)
+// console.log(alluser)
+
+
+//Filter Method
+
+
+// let bag=""
+// for(let i=0;i<num.length;i++){
+//     if(num%2==0){
+//         bag+=i
+//     }else{
+//         console.log("No")
+//     }
+//     console.log(bag)
+// }
+
+// let num=[1,2,3,4,5,6,7,9]
+
+// const isven=num.filter((num)=>{
+//     return num%2==0
+// })
+
+// console.log(isven)
+
 
 
 
