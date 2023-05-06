@@ -168,13 +168,13 @@
 
 
 
-function fun2(){
-    function fun3(){
-        return "Hello Folks"
-    }
-    return fun3;
-}
-const ans=fun2()
-console.log(ans())
+// function fun2(){
+//     function fun3(){
+//         return "Hello Folks"
+//     }
+//     return fun3;
+// }
+// const ans=fun2()
+// console.log(ans())
 
 
