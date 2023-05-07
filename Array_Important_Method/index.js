@@ -77,13 +77,13 @@
 //     console.log(bag)
 // }
 
-// let num=[1,2,3,4,5,6,7,9]
+let num=[1,2,3,4,5,6,7,9]
 
-// const isven=num.filter((num)=>{
-//     return num%2==0
-// })
+const isven=num.filter((num)=>{
+    return num%2==0
+})
 
-// console.log(isven)
+console.log(isven)
 
 
 
