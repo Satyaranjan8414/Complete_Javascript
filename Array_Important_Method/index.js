@@ -76,14 +76,33 @@
 //     }
 //     console.log(bag)
 // }
+//bY Using MapMethod i can only Get the true false value
+// let num=[1,2,3,4,5,6,7,8,9,10]
 
-let num=[1,2,3,4,5,6,7,9]
+// const isven=num.map((num)=>{
+//     return num%2==0
+// })
 
-const isven=num.filter((num)=>{
-    return num%2==0
-})
+// console.log(isven)
 
-console.log(isven)
+// let num=[1,2,3,4,5,6,7,8,9,10]
+
+// const isven=num.filter((num)=>{
+//     return num%2==0
+// })
+
+// console.log(isven)
+
+//Reduce Method
+
+ let num=[1,2,3,4,5,6,7,8,9,10]
+
+ let sum=num.reduce((a,b)=>{
+    return a+b
+    
+ })
+ console.log(sum);
+ 
 
 
 
