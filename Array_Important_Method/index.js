@@ -102,8 +102,31 @@
     
 //  })
 //  console.log(sum);
+
  
 
+// const UserCart=[
+//     {id:1,productName:"Mobile",productPrice:10000},
+//     {id:2,productName:"laptop",productPrice:10200},
+//     {id:3,productName:"tablet",productPrice:15000}
+// ]
+
+// const total=UserCart.reduce((a,b)=>{
+//     return a+b.productPrice
+// },0)
+// console.log(total)
+
+
+const UserCart=[
+        {id:1,productName:"Mobile",productPrice:10000},
+        {id:2,productName:"laptop",productPrice:10200},
+        {id:3,productName:"tablet",productPrice:15000}
+    ]
+
+const total=UserCart.reduce((a,b)=>{
+    return a+b.productPrice;
+},0)
+console.log(total);
 
 
 
