@@ -133,9 +133,23 @@
 //Sort Method
 
 
-let num=[3,4,5,8,9,101,2,6,7,]
-num.sort()
-console.log(num)
+// let num=[3,4,5,8,9,101,2,6,7,]
+// num.sort()
+// console.log(num)
+
+//fIND mETHOD 
+
+let arr=["Satya","Rai","Ramu","Rakhi","Rang","Mamma"]
+
+function isventory(string){
+    return string.length==5;
+}
+let ans=arr.find(isventory)
+console.log(ans)
+
+//Real Life Example
+
+
 
 
 
