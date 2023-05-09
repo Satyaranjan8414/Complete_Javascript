@@ -150,15 +150,21 @@
 //Real Life Example
 
 
-const UserCart=[
-        {id:1,username:"Satya"},
-        {id:2,username:"Sai"},
-        {id:3,username:"Samma"},
-        {id:4,username:"lovely"},
-    ]
-let user=UserCart.find((user)=>user.id==4)
-console.log(user)
+// const UserCart=[
+//         {id:1,username:"Satya"},
+//         {id:2,username:"Sai"},
+//         {id:3,username:"Samma"},
+//         {id:4,username:"lovely"},
+//     ]
+// let user=UserCart.find((user)=>user.id==4)
+// console.log(user)
 
+//Every Method example
+
+let arr=[2,4,6,8,10]
+
+let num=arr.every((arr)=>arr%2===0)
+console.log(num)
 
 
 
