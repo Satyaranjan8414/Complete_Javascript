@@ -139,7 +139,7 @@
 
 //fIND mETHOD 
 
-let arr=["Satya","Rai","Ramu","Rakhi","Rang","Mamma"]
+// let arr=["Satya","Rai","Ramu","Rakhi","Mamma"]
 
 function isventory(string){
     return string.length==5;
