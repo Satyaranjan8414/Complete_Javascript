@@ -139,15 +139,25 @@
 
 //fIND mETHOD 
 
-let arr=["Satya","Rai","Ramu","Rakhi","Mamma"]
+// let arr=["Satya","Rai","Ramu","Rakhi","Mamma"]
 
-function isventory(string){
-    return string.length==5;
-}
-let ans=arr.find(isventory)
-console.log(ans)
+// function isventory(string){
+//     return string.length==5;
+// }
+// let ans=arr.find(isventory)
+// console.log(ans)
 
 //Real Life Example
+
+
+const UserCart=[
+        {id:1,username:"Satya"},
+        {id:2,username:"Sai"},
+        {id:3,username:"Samma"},
+        {id:4,username:"lovely"},
+    ]
+let user=UserCart.find((user)=>user.id==4)
+console.log(user)
 
 
 
