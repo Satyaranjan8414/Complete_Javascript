@@ -27,10 +27,10 @@
 
 
 // Map Object
-const person=new Map();
+// const person=new Map();
 
-person.set('Name','satya')
-person.set('age','10')
+// person.set('Name','satya')
+// person.set('age','10')
 
 console.log(person.get('Name'))
 console.log(person.get('age'))
