@@ -30,5 +30,11 @@ const user2={
 //Call Function
 // user1.about.call(user2,"Spots","Rab ne banadi jodi")
 
-//Apply Function 
-user1.about.apply(user2,["Spots","Rab ne banadi jodi"])
+// //Apply Function 
+// user1.about.apply(user2,["Spots","Rab ne banadi jodi"])
+
+
+//Bind Function -It always Return a function 
+
+const func=user1.about.bind(user2,"Love","Love2")
+func()
