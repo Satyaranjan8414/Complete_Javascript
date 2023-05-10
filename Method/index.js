@@ -31,3 +31,4 @@ const user2={
 // user1.about.call(user2,"Spots","Rab ne banadi jodi")
 
 //Apply Function 
+user1.about.apply(user2,["Spots","Rab ne banadi jodi"])
