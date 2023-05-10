@@ -19,9 +19,23 @@
 
 //fIND THE Unique Elemrnt in the gIVEN aARRAY
 
-const myarr=[1,2,3,4,4,5,6,6]
+// const myarr=[1,2,3,4,4,5,6,6]
 
-const unique=new Set(myarr)
+// const unique=new Set(myarr)
 
-console.log(unique)
+// console.log(unique)
 
+
+// Map Object
+const person=new Map();
+
+person.set('Name','satya')
+person.set('age','10')
+
+console.log(person.get('Name'))
+console.log(person.get('age'))
+// console.log(person.keys())
+
+for(let key of person.keys()){
+    console.log(key,typeof key)
+}
