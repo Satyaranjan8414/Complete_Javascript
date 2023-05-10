@@ -7,5 +7,12 @@
 
 //Set Iterable
 
-const numbers=new Set([1,2,3]);
+const numbers=new Set([2,3]);
+numbers.add(6)
+if(numbers.has(1)){
+    console.log("1 is Present")
+}else{
+    console.log("No")
+}
 console.log(numbers)
+
