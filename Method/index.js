@@ -2,12 +2,32 @@
 
 //Function inside Object
 
-const person={
-    firstname:"Ram",
-    age:23,
-    gender:"male",
-    about: function(){
-        console.log(`name is ${this.firstname} and age is ${this.age} and gender is ${this.gender}`)
+// const person={
+//     firstname:"Ram",
+//     age:23,
+//     gender:"male",
+//     about: function(){
+//         console.log(`name is ${this.firstname} and age is ${this.age} and gender is ${this.gender}`)
+//     }
+// }
+// person.about()
+
+
+//Call APPLY Bind
+
+const user1={
+    fistName:"Satya",
+    about:function(hobby,song){
+        console.log(this.fistName,hobby,song)
     }
 }
-person.about()
+const user2={
+    fistName:"Raj",
+    about:function(hobby,song){
+        console.log(this.fistName,hobby,song)
+    }
+}
+//Call Function
+// user1.about.call(user2,"Spots","Rab ne banadi jodi")
+
+//Apply Function 
