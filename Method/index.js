@@ -43,12 +43,12 @@
 const user1={
     fistName:"Satya",
     age:17,
-    about:()=>{
+    about(){
         console.log(this.fistName,this.age)
     }
 }
 
-user1.about(user1)
+user1.about()
 
 
 
