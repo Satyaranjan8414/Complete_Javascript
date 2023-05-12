@@ -63,7 +63,21 @@ function CreateUser(firstname,lastname,email,age,address){
     user.age=age;
     user.address=address;
     user.about=function(){
-        return `${this.firstname} is $`
+        return `${this.firstname} is ${this.age} Year Old`
+    };
+    user.is18=function(){
+        return this.age>=18
     }
+    return user;
 }
+
+const user1=CreateUser("Satya","Maity","Satya@maity@gmail.com",2,"Bengalore")
+const about=user1.about()
+const is18=user1.is18()
+
+console.log(user1)
+console.log(about);
+
+
+
 
