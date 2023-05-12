@@ -58,5 +58,9 @@
 function CreateUser(firstname,lastname,email,age,address){
     const user={};
     user.firstname=firstname;
+    user.lastname=lastname;
+    user.email=email;
+    user.age=age;
+    
 }
 
