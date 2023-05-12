@@ -15,18 +15,18 @@
 
 //Call APPLY Bind
 
-const user1={
-    fistName:"Satya",
-    about:function(hobby,song){
-        console.log(this.fistName,hobby,song)
-    }
-}
-const user2={
-    fistName:"Raj",
-    about:function(hobby,song){
-        console.log(this.fistName,hobby,song)
-    }
-}
+// const user1={
+//     fistName:"Satya",
+//     about:function(hobby,song){
+//         console.log(this.fistName,hobby,song)
+//     }
+// }
+// const user2={
+//     fistName:"Raj",
+//     about:function(hobby,song){
+//         console.log(this.fistName,hobby,song)
+//     }
+// }
 //Call Function
 // user1.about.call(user2,"Spots","Rab ne banadi jodi")
 
@@ -36,5 +36,19 @@ const user2={
 
 //Bind Function -It always Return a function 
 
-const func=user1.about.bind(user2,"Love","Love2")
-func()
+// const func=user1.about.bind(user2,"Love","Love2")
+// func()
+
+
+const user1={
+    fistName:"Satya",
+    age:17,
+    about:()=>{
+        console.log(this.fistName,this.age)
+    }
+}
+
+user1.about(user1)
+
+
+
