@@ -61,6 +61,9 @@ function CreateUser(firstname,lastname,email,age,address){
     user.lastname=lastname;
     user.email=email;
     user.age=age;
-    
+    user.address=address;
+    user.about=function(){
+        return `${this.firstname} is $`
+    }
 }
 
