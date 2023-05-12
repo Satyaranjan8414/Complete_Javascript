@@ -36,5 +36,5 @@ const user2={
 
 //Bind Function -It always Return a function 
 
-// const func=user1.about.bind(user2,"Love","Love2")
-// func()
+const func=user1.about.bind(user2,"Love","Love2")
+func()
