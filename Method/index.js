@@ -55,3 +55,8 @@
 
 
 
+function CreateUser(firstname,lastname,email,age,address){
+    const user={};
+    user.firstname=firstname;
+}
+
