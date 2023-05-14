@@ -166,15 +166,15 @@
 // })
 // console.log(Price)
 //Some Method
-// const UserCart=[
-//     {id:1,productName:"Mobile",productPrice:10000},
-//     {id:2,productName:"laptop",productPrice:10200},
-//     {id:3,productName:"tablet",productPrice:15000}
-// ]
+const UserCart=[
+    {id:1,productName:"Mobile",productPrice:10000},
+    {id:2,productName:"laptop",productPrice:10200},
+    {id:3,productName:"tablet",productPrice:15000}
+]
 
-// const such=UserCart.some((item)=>item.productPrice>100)
+const such=UserCart.some((item)=>item.productPrice>100)
 
-// console.log(such)
+console.log(such)
 
 
 
