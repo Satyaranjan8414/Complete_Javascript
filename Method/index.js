@@ -71,10 +71,10 @@ function CreateUser(firstname,lastname,email,age,address){
     return user;
 }
 
-const user1=CreateUser("Satya","Maity","Satya@maity@gmail.com",19,"Bengalore")
-const user2=crea
-const about=user1.about()
-const is18=user1.is18()
+// const user1=CreateUser("Satya","Maity","Satya@maity@gmail.com",19,"Bengalore")
+// const user2=crea
+// const about=user1.about()
+// const is18=user1.is18()
 
 // console.log(user1)
 // console.log(about);
