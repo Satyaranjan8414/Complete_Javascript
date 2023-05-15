@@ -76,9 +76,9 @@ const user2=crea
 const about=user1.about()
 const is18=user1.is18()
 
-// console.log(user1)
-// console.log(about);
-// console.log(is18);
+console.log(user1)
+console.log(about);
+console.log(is18);
 
 
 
