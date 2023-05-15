@@ -55,21 +55,21 @@
 
 
 
-function CreateUser(firstname,lastname,email,age,address){
-    const user={};
-    user.firstname=firstname;
-    user.lastname=lastname;
-    user.email=email;
-    user.age=age;
-    user.address=address;
-    user.about=function(){
-        return `${this.firstname} is ${this.age} Year Old`
-    };
-    user.is18=function(){
-        return this.age>=18
-    }
-    return user;
-}
+// function CreateUser(firstname,lastname,email,age,address){
+//     const user={};
+//     user.firstname=firstname;
+//     user.lastname=lastname;
+//     user.email=email;
+//     user.age=age;
+//     user.address=address;
+//     user.about=function(){
+//         return `${this.firstname} is ${this.age} Year Old`
+//     };
+//     user.is18=function(){
+//         return this.age>=18
+//     }
+//     return user;
+// }
 
 // const user1=CreateUser("Satya","Maity","Satya@maity@gmail.com",19,"Bengalore")
 // const user2=crea
