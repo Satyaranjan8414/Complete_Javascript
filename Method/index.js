@@ -82,13 +82,13 @@
 
 
 
-let arr=[1,2,3,4,5,6,3,4,6]
-let obj={}
+// let arr=[1,2,3,4,5,6,3,4,6]
+// let obj={}
 
-for(let i=0;i<arr.length;i++){
-    obj[arr[i]]="unique"
-}
-console.log(obj)
+// for(let i=0;i<arr.length;i++){
+//     obj[arr[i]]="unique"
+// }
+// console.log(obj)
 
 
 
