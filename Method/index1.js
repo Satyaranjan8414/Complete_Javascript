@@ -1,19 +1,17 @@
-const userMethods= {
-    about:
-is18:function(){
-    return this.age>=18
-},
-sing:function(){
-    return 'Rab ne bana di jodi'
-}
-}
+// const userMethods= {
+//     about:
+// is18:function(){
+//     return this.age>=18
+// },
+// sing:
+// }
 
 
 
 
 
 function CreateUser(firstname,lastname,email,age,address){
-    const user=Object.create(userMethods);
+    const user=Object.create(CreateUser.prototype);
     user.firstname=firstname;
     user.lastname=lastname;
     user.email=email;
@@ -27,6 +25,13 @@ function CreateUser(firstname,lastname,email,age,address){
 }
 CreateUser.prototype.about=function(){
     return `${this.firstname} is ${this.age} Year Old`
+}
+CreateUser.prototype.is18=function(){
+    return this.age>=18
+}
+
+CreateUser.prototype.sing=function(){
+    return 'Rab ne bana di jodi'
 }
 
 const user1=CreateUser("Satya","Maity","Satya@maity@gmail.com",19,"Bengalore")
