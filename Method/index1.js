@@ -4,10 +4,10 @@ const userMethods= {
 },
 is18:function(){
     return this.age>=18
+},
+sing:function(){
+    return 'Rab ne bana di jodi'
 }
-// sing:function(){
-//     return 
-// }
 }
 
 
@@ -15,14 +15,15 @@ is18:function(){
 
 
 function CreateUser(firstname,lastname,email,age,address){
-    const user={};
+    const user=Object.create(userMethods);
     user.firstname=firstname;
     user.lastname=lastname;
     user.email=email;
     user.age=age;
     user.address=address;
-    user.about=userMethods.about;
-    user.is18=userMethods.is18;
+    // user.about=userMethods.about;
+    // user.is18=userMethods.is18;
+    // user.sing=userMethods.sing
     return user;
    
 }
@@ -35,3 +36,4 @@ const user1=CreateUser("Satya","Maity","Satya@maity@gmail.com",19,"Bengalore")
 console.log(user1)
 console.log(user1.about());
 console.log(user1.is18());
+console.log(user1.sing());
