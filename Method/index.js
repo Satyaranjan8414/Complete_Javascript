@@ -53,6 +53,17 @@
 
 //Object Oriented Programming-OOPS
 
+const userMethods= {
+    about:function(){
+    return `${this.firstname} is ${this.age} Year Old`
+},
+is18:function(){
+    return this.age>=18
+}
+}
+
+
+
 
 
 function CreateUser(firstname,lastname,email,age,address){
@@ -62,33 +73,33 @@ function CreateUser(firstname,lastname,email,age,address){
     user.email=email;
     user.age=age;
     user.address=address;
-    user.about=function(){
-        return `${this.firstname} is ${this.age} Year Old`
-    };
-    user.is18=function(){
-        return this.age>=18
-    }
+    user.about=userMethods.about;
+    user.is18=userMethods.is18;
     return user;
+   
 }
 
 const user1=CreateUser("Satya","Maity","Satya@maity@gmail.com",19,"Bengalore")
-const user2=crea
-const about=user1.about()
-const is18=user1.is18()
+// const user2=crea
+// const about=user1.about()
+// const is18=user1.is18()
 
 console.log(user1)
-console.log(about);
-console.log(is18);
+console.log(user1.about());
+console.log(user1.is18());
 
 
 
-let arr=[1,2,3,4,5,6,3,4,6]
-let obj={}
+// let arr=[1,2,3,4,5,6,3,4,6]
+// let obj={}
 
-for(let i=0;i<arr.length;i++){
-    obj[arr[i]]="unique"
-}
-console.log(obj)
+// for(let i=0;i<arr.length;i++){
+//     obj[arr[i]]="unique"
+// }
+// console.log(obj)
+
+
+
 
 
 
