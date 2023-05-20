@@ -24,3 +24,5 @@ class CreateUser{
 const user2= new CreateUser("Sonalika","Das","Sonalika6666@gmail.com",22,"Balasore","Love aj kal")
 
 console.log(user2)
+
+console.log(Object.getPrototypeOf(user2))
