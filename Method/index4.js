@@ -51,6 +51,9 @@ class dog extends Animal{
     run(){
         return `The dog speed is ${this.spped}`
     }
+    eat(){
+        return `The Dog is Eating`
+    }
 }
 
 // const animal1=new Animal("Cow",10)
@@ -63,5 +66,7 @@ class dog extends Animal{
 
 const dong=new dog("Lovely","1",20)
 console.log(dong.run());
+console.log(dong.eat());
+
 
 
