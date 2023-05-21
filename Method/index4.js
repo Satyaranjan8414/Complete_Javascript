@@ -48,7 +48,7 @@ class dog extends Animal{
         super(name,age);
         this.spped=spped;
     }
-    spped(){
+    run(){
         return `The dog speed is ${this.spped}`
     }
 }
@@ -62,6 +62,6 @@ class dog extends Animal{
 // console.log(animal1.old());
 
 const dong=new dog("Lovely","1",20)
-console.log(dong);
+console.log(dong.run());
 
 
