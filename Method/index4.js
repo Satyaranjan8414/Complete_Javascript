@@ -44,7 +44,13 @@ class Animal{
 }
 
 class dog extends Animal{
-
+    constructor(name,age,spped){
+        super(name,age);
+        this.spped=spped;
+    }
+    spped(){
+        return `The dog speed is ${this.spped}`
+    }
 }
 
 // const animal1=new Animal("Cow",10)
@@ -55,6 +61,7 @@ class dog extends Animal{
 // console.log(animal1.eat());
 // console.log(animal1.old());
 
-const dong=new dog("Lovely","1")
-console.log(dong.eat());
+const dong=new dog("Lovely","1",20)
+console.log(dong);
+
 
