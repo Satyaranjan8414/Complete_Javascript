@@ -28,5 +28,7 @@ console.log(person1.fullname);
 // console.log(person1.firstname);
 // console.log(person1.lastname);
 
+person1.setname="Sai Reddy";
+console.log(person1);
 
 
