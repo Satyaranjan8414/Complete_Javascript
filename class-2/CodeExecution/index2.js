@@ -3,7 +3,7 @@
 let foo="foo"
 console.log(foo)
 function getDetails(name,age){
-    console.log(arguments)
+    console.log(arguments[0])
     let myvar="Hello World"
     console.log(myvar)
     const fulldetails=name +" "+age;
