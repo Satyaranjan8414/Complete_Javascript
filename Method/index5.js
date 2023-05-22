@@ -9,8 +9,15 @@ class person{
    get fullname(){
         return `${this.firstname} ${this.lastname} ${this.age}`;
     }
+    setname(firstname,lastname){
+        this.firstname=firstname;
+        this.lastname=lastname;
+    }
 }
 const person1=new person("SaraAli","Khan",23);
 console.log(person1.fullname);
 
-console.log(person1)
+ person1.setname("Rahul","Reddy")
+console.log(person1.firstname);
+console.log(person1.lastname);
+
