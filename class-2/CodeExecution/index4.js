@@ -24,9 +24,28 @@
 
 // ClosureEx-2
 
-const myfun=p=>n=>p**n
+// const myfun=p=>n=>p**n
     
 
-const cube=myfun(5)
-const ans=cube(3)
-console.log(ans)
+// const cube=myfun(5)
+// const ans=cube(3)
+// console.log(ans)
+
+//Closure -3 Example
+
+function myfun(){
+    let count=0;
+
+    return function(){
+        if(count<1){
+            console.log("You are Calling Me")
+            count++;
+        }else{
+            console.log("I have Already Called")
+        }
+    }
+}
+
+const result = myfun()
+result()
+result()
