@@ -24,11 +24,9 @@
 
 // ClosureEx-2
 
-function myfun(p){
-    return function(n){
-        return p**n
-    }
-}
+const myfun=p=>n=>p**n
+    
+
 const cube=myfun(5)
 const ans=cube(3)
 console.log(ans)
