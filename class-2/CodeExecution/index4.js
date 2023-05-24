@@ -11,12 +11,24 @@
 
 // console.log(result)
 
-function hello(x){
-    const a="Hello"
-    const b="World"
-    return function(){
-        console.log(a,b,x)
+// function hello(x){
+//     const a="Hello"
+//     const b="World"
+//     return function(){
+//         console.log(a,b,x)
+//     }
+// }
+// const result = hello("arg")
+// result()
+
+
+// ClosureEx-2
+
+function myfun(p){
+    return function(n){
+        return p**n
     }
 }
-const result = hello("arg")
-result()
+const cube=myfun(5)
+const ans=cube(3)
+console.log(ans)
