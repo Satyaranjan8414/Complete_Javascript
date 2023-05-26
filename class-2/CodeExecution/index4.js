@@ -33,19 +33,35 @@
 
 //Closure -3 Example
 
-function myfun(){
-    let count=0;
+// function myfun(){
+//     let count=0;
 
+//     return function(){
+//         if(count<1){
+//             console.log("You are Calling Me")
+//             count++;
+//         }else{
+//             console.log("I have Already Called")
+//         }
+//     }
+// }
+
+// const result = myfun()
+// result()
+// result()
+
+// Example-4
+function myfun(){
+    let count=0
     return function(){
         if(count<1){
-            console.log("You are Calling Me")
+            console.log("Hi tumne Mujhe call kia")
             count++;
         }else{
-            console.log("I have Already Called")
+            console.log("Me already Called ho chuka hu")
         }
     }
 }
-
-const result = myfun()
-result()
-result()
+const res=myfun()
+res();
+res();
