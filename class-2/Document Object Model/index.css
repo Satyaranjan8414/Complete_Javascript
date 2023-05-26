@@ -19,10 +19,32 @@ body{
 
 }
 .home>li>a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
+/* .home{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-evenly;
+} */
 
-.contai
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+}
 
+.nav{
+    display: flex;
+    justify-content: space-between;
+    min-height: 8vh;
+    align-items: center;
+}
+.home{
+   width: 40%;
+   display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
 
