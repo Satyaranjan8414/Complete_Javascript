@@ -7,5 +7,22 @@
     box-sizing: border-box;
 }
 body{
-    background-color: aquamarine;
+    font-family: sans-serif;
 }
+.header{
+    min-height: 100vh;
+    background-image: url("./bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+.home>li>a{
+    color: white;
+    text-decoration: none;
+}
+
+.contai
+
+
