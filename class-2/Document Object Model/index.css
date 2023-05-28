@@ -11,7 +11,7 @@ body{
 }
 .header{
     min-height: 100vh;
-    background-image: url("./bg2.jpg");
+    background-image: url("./bg3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,7 @@ body{
 
 }
 .home>li>a{
-    color: black;
+    color: rgb(244, 240, 240);
     text-decoration: none;
 }
 /* .home{
