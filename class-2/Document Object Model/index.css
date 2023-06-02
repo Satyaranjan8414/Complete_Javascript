@@ -1,76 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;700&family=Poppins:ital,wght@0,200;0,600;1,300&display=swap');
-
-
 *{
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 body{
-    font-family: sans-serif;
-}
-.header{
-    min-height: 100vh;
-    background-image: url("./bg3.jpg");
-    background-position: center;
+    background-image: url(bg3.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+}
+
+
+.navbar{
+    display: flex;
+    /* border: 1px solid rgb(173, 74, 74); */
+    justify-content: space-around;
+    padding: 10px;
+   
+}
+.content{
+    display: flex;
+    text-decoration: none;
+    gap: 550px;
     color: white;
-    /* align-items: center; */
-
-}
-.home>li>a{
-    color: rgb(244, 240, 240);
     text-decoration: none;
-}
-/* .home{
-    display: flex;
-    text-decoration: none;
-    justify-content: space-evenly;
-} */
-
-.container{
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    max-width: 90%;
-    /* align-items: center; */
-}
-
-.nav{
-    display: flex;
-    justify-content: space-between;
-    min-height: 8vh;
-    align-items: center;
-}
-.home{
-   width: 40%;
-   display: flex;
     list-style-type: none;
-    justify-content: space-between;
+    font-size: large;
 }
-.task{
-    position: relative;
-    left: 40%;
-    top:250px
-    
-}
-
-.btn{
-    display: block;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    padding: 10px 10px;
-    border-radius: 5px;
-    position: relative;
-    left: 80px;
-    top: 20px;
-    font-weight:600;
-}
-
-.plain{
-    position: relative;
-    left: 40%;
-    top:20px
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
 }
