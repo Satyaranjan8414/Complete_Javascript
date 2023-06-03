@@ -11,3 +11,8 @@
 // const divele=document.querySelector("div")
 // divele.style.backgroundColor="green"
 
+//Get and set Attributes
+
+const link=document.querySelector("a")
+console.log(link.getAttribute("href").slice(1))
+
