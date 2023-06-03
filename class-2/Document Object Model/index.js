@@ -13,6 +13,12 @@
 
 //Get and set Attributes
 
-const link=document.querySelector("a")
-console.log(link.getAttribute("href").slice(1))
+// const link=document.querySelector("a")
+// console.log(link.getAttribute("href").slice(1))
 
+//Type Attributes
+
+const input=document.querySelector(".todo-form input")
+console.log(input.getAttribute("type"))
+input.setAttribute("type", "number")
+console.log(input.getAttribute("type"))
