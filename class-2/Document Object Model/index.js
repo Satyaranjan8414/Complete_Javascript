@@ -7,5 +7,7 @@
 // console.log(link.getAttribute("href").slice(1))
 // link.style.backgroundColor="red"
 
-const user=document.getElementById("username")
+// const user=document.getElementById("username")
+const divele=document.querySelector("div")
+divele.style.backgroundColor="green"
 
