@@ -23,7 +23,14 @@
 // input.setAttribute("type", "number")
 // console.log(input.getAttribute("type"))
 
+// const user = document.getElementsByClassName("user-group")
 
-const user = document.getElementsByClassName("user-group")
+// console.log(typeof user)
 
-console.log(typeof user)
+
+const data=document.getElementsByClassName("nav-item")
+for(let i=0;i<data.length;i++){
+    const dataitem=data[i];
+    // dataitem.style.backgroundColor="green"
+    dataitem.style.fontWeight="bold"
+}
