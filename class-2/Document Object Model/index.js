@@ -28,9 +28,14 @@
 // console.log(typeof user)
 
 
-const data=document.getElementsByClassName("nav-item")
-for(let i=0;i<data.length;i++){
-    const dataitem=data[i];
-    // dataitem.style.backgroundColor="green"
-    dataitem.style.fontWeight="bold"
-}
+// const data=document.getElementsByClassName("nav-item")
+// for(let i=0;i<data.length;i++){
+//     const dataitem=data[i];
+//     // dataitem.style.backgroundColor="green"
+//     dataitem.style.fontWeight="bold"
+// }
+
+const todo=document.querySelector(".todo-form")
+todo.innerHTML="Inner Html is changed"
+todo.innerHTML="<button>Inner</button>"
+console.log(todo.innerHTML)
