@@ -18,7 +18,12 @@
 
 //Type Attributes
 
-const input=document.querySelector(".todo-form input")
-console.log(input.getAttribute("type"))
-input.setAttribute("type", "number")
-console.log(input.getAttribute("type"))
+// const input=document.querySelector(".todo-form input")
+// console.log(input.getAttribute("type"))
+// input.setAttribute("type", "number")
+// console.log(input.getAttribute("type"))
+
+
+const user = document.getElementsByClassName("user-group")
+
+console.log(typeof user)
