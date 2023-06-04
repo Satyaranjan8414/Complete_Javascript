@@ -55,8 +55,10 @@
 // const todo=document.querySelector(".newTodo")
 // todo.innerHTML=todo.innerHTML+ "<li>New todo added</li>";
 
-const ul=document.querySelector(".newTodo")
-const li=document.createElement("li");
-li.textContent="New todo added successfully"
-ul.appendChild(li)
-console.log(ul);
+// const ul=document.querySelector(".newTodo")
+// const li=document.createElement("li");
+// const refnode=document.querySelector(".link")
+// li.textContent="New todo added successfully"
+// ul.insertBefore(li,refnode)
+
+
