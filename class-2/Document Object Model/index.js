@@ -41,5 +41,17 @@
 // console.log(todo.innerHTML)
 
 
-const newtodo=document.querySelector(".newTodo")
-newtodo.innerHTML=newtodo.innerHTML+"<li>New todo added </li>"
+// const newtodo=document.querySelector(".newTodo")
+// newtodo.innerHTML=newtodo.innerHTML+"<li>New todo added </li>"
+
+// const newItem=document.createElement("li")
+
+// newItem.innerHTML="We can now add"
+
+// const newtodo=document.querySelector(".newTodo")
+
+// newtodo.append(newItem)
+
+// const todo=document.querySelector(".newTodo")
+// todo.innerHTML=todo.innerHTML+ "<li>New todo added</li>";
+
