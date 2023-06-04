@@ -12,4 +12,7 @@ console.log(headnode.cloneNode)
 // const bodynode=htmlnode.childNodes[2]
 // console.log(bodynode)
 
-// 5:7--Traversing the tree
+const h1=document.querySelector("h1")
+const h1parent= h1.parentNode
+
+h1.style.backgroundColor= "green"
