@@ -35,7 +35,9 @@
 //     dataitem.style.fontWeight="bold"
 // }
 
-const todo=document.querySelector(".todo-form")
-todo.innerHTML="Inner Html is changed"
-todo.innerHTML="<button>Inner</button>"
-console.log(todo.innerHTML)
+// const todo=document.querySelector(".todo-form")
+// todo.innerHTML="Inner Html is changed"
+// todo.innerHTML="<button>Inner</button>"
+// console.log(todo.innerHTML)
+
+//4:38
