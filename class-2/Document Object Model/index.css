@@ -108,3 +108,13 @@ input{
     font-size: 15px;
     
 }
+.newTodo{
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+    list-style-type: none;
+    text-align: center;
+}
+.newTodo li{
+    margin-top: 0.5rem;
+}

@@ -40,4 +40,6 @@
 // todo.innerHTML="<button>Inner</button>"
 // console.log(todo.innerHTML)
 
-//4:38
+
+const newtodo=document.querySelector(".newTodo")
+newtodo.innerHTML=newtodo.innerHTML+"<li>New todo added </li>"
