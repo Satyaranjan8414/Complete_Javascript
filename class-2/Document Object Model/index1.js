@@ -17,5 +17,29 @@
 
 // h1.style.backgroundColor= "green"
 
-const con=document.querySelector(".container")
-console.log(con.children)
+// const con=document.querySelector(".container")
+// console.log(con.children)
+
+
+// const one=document.querySelector(".one")
+// one.addEventListener("click", function(){
+//     console.log("You clicked on one")
+// })
+
+// const two=document.querySelector(".two")
+// two.addEventListener("click", function(){
+//     console.log("You clicked on two")
+// })
+
+// const three=document.querySelector(".three")
+// three.addEventListener("click", function(){
+//     console.log("You clicked on three")
+// })
+
+const buttonall=document.querySelectorAll("button")
+
+for(let button of buttonall){
+    button.addEventListener("click", function(){
+            console.log(this.textContent)
+        })
+}
