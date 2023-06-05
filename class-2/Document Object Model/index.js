@@ -62,6 +62,10 @@
 // ul.insertBefore(li,refnode)
 
 
-const signups=document.querySelector("#signup")
-const info=signups.getBoundingClientRect();
-console.log(info)
+// const signups=document.querySelector("#signup")
+// const info=signups.getBoundingClientRect();
+// console.log(info)
+
+//EVENT 
+
+
