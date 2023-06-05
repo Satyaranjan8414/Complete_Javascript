@@ -69,6 +69,12 @@
 //EVENT 
 
 const btn=document.querySelector(".btn")
-btn.addEventListener("click",function(){
-    console.log("Clicked")
+// btn.addEventListener("click",function(){
+//     console.log("Clicked")
+// })
+
+//By using arrow functions
+
+btn.addEventListener("click",()=>{
+    console.log("Clicked Learnd More button")
 })
