@@ -77,4 +77,6 @@ const btn=document.querySelector(".btn")
 
 btn.addEventListener("click",()=>{
     console.log("Clicked Learnd More button")
+    console.log("This Value When it is clicked")
+    console.log(this);
 })
