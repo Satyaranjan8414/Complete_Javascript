@@ -36,10 +36,10 @@
 //     console.log("You clicked on three")
 // })
 
-const buttonall=document.querySelectorAll("button")
+const buttonall = document.querySelectorAll("button")
 
-for(let button of buttonall){
-    button.addEventListener("click", function(){
-            console.log(this.textContent)
-        })
+for (let button of buttonall) {
+    button.addEventListener("click", function () {
+        console.log(this.textContent)
+    })
 }
