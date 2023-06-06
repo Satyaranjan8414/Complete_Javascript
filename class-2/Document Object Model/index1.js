@@ -38,8 +38,10 @@
 
 const buttonall = document.querySelectorAll("button")
 
+//For Of loops
+
 for (let button of buttonall) {
     button.addEventListener("click", function () {
-        console.log(this.textContent)
+        console.log(this.innerHTML)
     })
 }
