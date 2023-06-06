@@ -48,8 +48,18 @@ const buttonall = document.querySelectorAll("button")
 
 //For loops
 
-for(let i=0;i<buttonall.length;i++){
- buttonall[i].addEventListener("click",function(){
-    console.log(this.textContent)
- })
-}
+// for(let i=0;i<buttonall.length;i++){
+//  buttonall[i].addEventListener("click",()=>{
+//     console.log(this.textContent)
+//  })
+// }
+
+//Foreach loop
+
+buttonall.forEach(function(button){
+    button.addEventListener("click",function(){
+            console.log(this.textContent)
+        })
+})
+
+
