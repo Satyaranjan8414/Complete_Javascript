@@ -40,8 +40,16 @@ const buttonall = document.querySelectorAll("button")
 
 //For Of loops
 
-for (let button of buttonall) {
-    button.addEventListener("click", function () {
-        console.log(this.innerHTML)
-    })
+// for (let button of buttonall) {
+//     button.addEventListener("click", function () {
+//         console.log(this.innerHTML)
+//     })
+// }
+
+//For loops
+
+for(let i=0;i<buttonall.length;i++){
+ buttonall[i].addEventListener("click",function(){
+    console.log(this.textContent)
+ })
 }
