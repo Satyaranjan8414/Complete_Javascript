@@ -36,7 +36,7 @@
 //     console.log("You clicked on three")
 // })
 
-const buttonall = document.querySelectorAll("button")
+// const buttonall = document.querySelectorAll("button")
 
 //For Of loops
 
@@ -56,10 +56,13 @@ const buttonall = document.querySelectorAll("button")
 
 //Foreach loop
 
-buttonall.forEach(function(button){
-    button.addEventListener("click",function(){
-            console.log(this.textContent)
-        })
-})
+// buttonall.forEach(function(button){
+//     button.addEventListener("click",function(){
+//             console.log(this.textContent)
+//         })
+// })
 
+//Event Objects
+
+//6:40
 
