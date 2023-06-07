@@ -78,10 +78,11 @@ console.log("Script started")
 
 const allbuttons = document.querySelectorAll("button")
 
-allbuttons.forEach(function(e){
-    let num=0;
+allbuttons.forEach(function(button){
+ 
     
-    e.addEventListener("click",function(e){
+    button.addEventListener("click",(e)=>{
+        let num=0;
         for(let i=0;i<=1000000000;i++){
             num+=i;
         }
