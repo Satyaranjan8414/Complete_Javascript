@@ -100,4 +100,6 @@ console.log("Value of outer variable is",outer)
 console.log("Script finished")
 
 
+// 6:51
+
 
