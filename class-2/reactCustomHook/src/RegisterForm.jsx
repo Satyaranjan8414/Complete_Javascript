@@ -11,7 +11,7 @@ const RegisterForm = () => {
 
   const [errors, setErrors] = useState({});
 
-  const { register, handleSubmit } = useForm();
+
 
   useEffect(() => {
     setErrors({});
