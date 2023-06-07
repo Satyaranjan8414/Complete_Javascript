@@ -66,3 +66,37 @@
 
 //6:40
 
+// const buttonall=document.querySelectorAll("button")
+
+// for (let button of buttonall) {
+//     button.addEventListener("click", (e) =>{
+//         console.log(e.currentTarget)
+//     })
+// }
+
+console.log("Script started")
+
+const allbuttons = document.querySelectorAll("button")
+
+allbuttons.forEach(function(e){
+    let num=0;
+    
+    e.addEventListener("click",function(e){
+        for(let i=0;i<=1000000000;i++){
+            num+=i;
+        }
+        console.log(e.currentTarget.textContent,num);
+    })
+})
+
+let outer=0;
+for(let i=0;i<=100000000;i++){
+    outer+=i;
+
+}
+console.log("Value of outer variable is",outer)
+
+console.log("Script finished")
+
+
+
