@@ -102,11 +102,16 @@
 
 // 6:51
 
-const buttonall=document.querySelectorAll("button")
+// const buttonall=document.querySelectorAll("button")
 
-buttonall.forEach(function(button){
-    button.addEventListener("click",(e)=>{
-       e.target.style.backgroundColor="red"
-       e.target.style.color="white"
-    })
-})
+// buttonall.forEach(function(button){
+//     button.addEventListener("click",(e)=>{
+//        e.target.style.backgroundColor="red"
+//        e.target.style.color="white"
+//     })
+// })
+
+
+// KeyPressEvent
+
+//MouseEvent
