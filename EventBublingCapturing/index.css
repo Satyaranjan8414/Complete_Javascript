@@ -27,14 +27,14 @@ main{
 }
 
 .grantparent{
-    background: royalblue;
+    background: #f79431;
     color: black;
 }
 .parent{
-    background:#ffff00;
+    background:#f7f7f7;
     color: black;
 }
 .child{
-    background: palegreen;
+    background: #118407;
     color: black;
 }
