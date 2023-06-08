@@ -1,7 +1,6 @@
 const mainButton = document.querySelector("button");
 const body=document.body
 const currentColor = document.querySelector(".Current-Color");
-// console.log(currentColor)
 
 function randomColorGenerator(){
     const r = Math.floor(Math.random()*256)
