@@ -74,32 +74,39 @@
 //     })
 // }
 
-console.log("Script started")
+// console.log("Script started")
 
-const allbuttons = document.querySelectorAll("button")
+// const allbuttons = document.querySelectorAll("button")
 
-allbuttons.forEach(function(button){
+// allbuttons.forEach(function(button){
  
     
-    button.addEventListener("click",(e)=>{
-        let num=0;
-        for(let i=0;i<=1000000000;i++){
-            num+=i;
-        }
-        console.log(e.currentTarget.textContent,num);
-    })
-})
+//     button.addEventListener("click",(e)=>{
+//         let num=0;
+//         for(let i=0;i<=1000000000;i++){
+//             num+=i;
+//         }
+//         console.log(e.currentTarget.textContent,num);
+//     })
+// })
 
-let outer=0;
-for(let i=0;i<=100000000;i++){
-    outer+=i;
+// let outer=0;
+// for(let i=0;i<=100000000;i++){
+//     outer+=i;
 
-}
-console.log("Value of outer variable is",outer)
+// }
+// console.log("Value of outer variable is",outer)
 
-console.log("Script finished")
+// console.log("Script finished")
 
 
 // 6:51
 
+const buttonall=document.querySelectorAll("button")
 
+buttonall.forEach(function(button){
+    button.addEventListener("click",(e)=>{
+       e.target.style.backgroundColor="red"
+       e.target.style.color="white"
+    })
+})
