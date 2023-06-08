@@ -114,7 +114,26 @@ input{
     margin-top: 1rem;
     list-style-type: none;
     text-align: center;
+    text-transform: capitalize;
+    border-radius: 10px;
+   
+    
+    
 }
 .newTodo li{
     margin-top: 0.5rem;
+    display: flex;
+    position: relative;
+    left:20px;
+    top: 5px;
 }
+.todo-btn{
+    position: relative;
+    left: 350px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    bottom: 8px;
+}
+

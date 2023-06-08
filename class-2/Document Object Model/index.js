@@ -86,11 +86,13 @@
 //     console.log(e.key)
 // })
 
-const body=document.body;
-const mousebutton=document.querySelector(".btn2")
+// const body=document.body;
+// const mousebutton=document.querySelector(".btn2")
 
-mousebutton.addEventListener("mouseover",()=>{
-    console.log("Mouse button clicked")
-})
+// mousebutton.addEventListener("mouseover",()=>{
+//     console.log("Mouse button clicked")
+// })
+
+
 
 
