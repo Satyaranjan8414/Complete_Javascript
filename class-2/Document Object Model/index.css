@@ -75,6 +75,8 @@ a{
     position: relative;
     bottom: 3px;
     background-color: darkcyan;
+    /* position: relative;
+    top: 5px; */
     
 }
 
@@ -136,4 +138,7 @@ input{
     border-radius: 10px;
     bottom: 8px;
 }
-
+/* .inner{
+    position: relative;
+    left: 20px;
+} */

@@ -95,4 +95,35 @@
 
 
 
+const todoForm = document.querySelector(".todo-form")
+const todoInput = document.querySelector(".todo-form input[type='text']")
+const newTodo=document.querySelector(".newTodo")
+// console.log(todoInput)
+todoForm.addEventListener("submit", function (e) {
+    e.preventDefault()
+    const newTodoText = todoInput.value;
+    const newli = document.createElement("li")
+    const newLiInnerHtml = `
+    <span class="text">${newTodoText}</span>
+  <div class="todo-list">
+    <button class="todo-btn done">Done</button>
+    <button class="todo-btn Delete">Delete</button>
+  </div>`;
+  newli.innerHTML = newLiInnerHtml;
+  newTodo.append(newli)
+    todoInput.value = ""
+})
 
+
+newTodo.addEventListener("click", (e)=> {
+    if(e.target.classList.contains("done")){
+       const liSpan=e.target.parentNode.previousElementSibling;
+       liSpan.style.textDecoration="line-through"
+    }
+})
+
+newTodo.addEventListener("click", (e)=> {
+    if(e.target.classList.contains("Delete")){
+        console.log("You have deleted")
+    }
+})
