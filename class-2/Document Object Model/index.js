@@ -124,6 +124,7 @@ newTodo.addEventListener("click", (e)=> {
 
 newTodo.addEventListener("click", (e)=> {
     if(e.target.classList.contains("Delete")){
-        console.log("You have deleted")
+       const TargetLi=e.target.parentNode.parentNode;
+       TargetLi.remove();
     }
 })
