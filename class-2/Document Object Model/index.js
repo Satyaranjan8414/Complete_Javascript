@@ -81,10 +81,16 @@
 //     console.log(this);
 // })
 
-const body=document.body
-body.addEventListener("keypress",function(e){
-    console.log(e.key)
-})
+// const body=document.body
+// body.addEventListener("keypress",function(e){
+//     console.log(e.key)
+// })
 
+const body=document.body;
+const mousebutton=document.querySelector(".btn2")
+
+mousebutton.addEventListener("mouseover",()=>{
+    console.log("Mouse button clicked")
+})
 
 
