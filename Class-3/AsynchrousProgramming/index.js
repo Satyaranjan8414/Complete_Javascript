@@ -9,12 +9,16 @@
 // console.log("Execution complete")
 
 
-//Example of SetTimeout
+//Example of SetTimeout with Asynchonous Proramming
 
 console.log("Script Start")
-fun(()=>{
-    console.log("Inside SetTimeout")
-},1000)
+setTimeout(()=>{
+    console.log("Inside setTimeout")
+},0)
+
+for(let i =0;i<4;i++){
+    console.log("Execution complete")
+}
 
 console.log("Script End")
 
