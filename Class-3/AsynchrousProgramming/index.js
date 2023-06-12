@@ -12,11 +12,9 @@
 //Example of SetTimeout
 
 console.log("Script Start")
-function fun(){
-    console.log("Function execution")
-}
-
-setTimeout(fun,10)
+fun(()=>{
+    console.log("Inside SetTimeout")
+},1000)
 
 console.log("Script End")
 
