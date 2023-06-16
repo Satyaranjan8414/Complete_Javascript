@@ -16,7 +16,7 @@ setTimeout(()=>{
     console.log("Inside setTimeout")
 },0)
 
-for(let i =0;i<4;i++){
+for(let i =0;i<2;i++){
     console.log("Execution complete")
 }
 
