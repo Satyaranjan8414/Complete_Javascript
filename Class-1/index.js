@@ -8,7 +8,7 @@ console.log(name)
 
 name="Biplab"
 
-console.log(name);
+// console.log(name);
 
 //Change value
 
