@@ -11,18 +11,25 @@
 
 //Example of SetTimeout with Asynchonous Proramming
 
+// console.log("Script Start")
+// setTimeout(()=>{
+//     console.log("Inside setTimeout")
+// },0)
+
+// for(let i =0;i<2;i++){
+//     console.log("Execution complete")
+// }
+
+// console.log("Script End")
+
+//SetTime Interval
+
 console.log("Script Start")
-setTimeout(()=>{
-    console.log("Inside setTimeout")
-},0)
 
-for(let i =0;i<2;i++){
-    console.log("Execution complete")
-}
+setInterval(() => {
+    console.log(Math.random())
+}, 1000);
 
-console.log("Script End")
-
-
-
+console.log("script end")
 
 
