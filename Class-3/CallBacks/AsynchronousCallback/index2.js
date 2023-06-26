@@ -16,7 +16,7 @@ function Color(ele, text, Color, time) {
               ele.textContent = text;
               resolve()
             } else {
-                reject()
+                reject("Element not found")
 
             }
           }, time);
@@ -38,4 +38,6 @@ return Color(heading2,"Hello","green",1000)
     return Color(heading6,"Hello","pink",1000)
 }).then(()=>{
     return Color(heading7,"Hello","brown",1000)
+}).catch((err)=>{
+    alert(err)
 })
