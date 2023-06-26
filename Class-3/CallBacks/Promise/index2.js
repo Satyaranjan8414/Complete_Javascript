@@ -12,5 +12,12 @@ mypromise().then((res)=>{
     return res;
 }).then((res)=>{
     console.log(res);
-
-});
+    res+=" "+"baz";
+    return res;
+}).then((res)=>{
+    console.log(res)
+    res+=" "+"foo";
+    return res;
+}).then((res)=>{
+    console.log(res)
+})
