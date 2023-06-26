@@ -24,20 +24,30 @@ function Color(ele, text, Color, time) {
    
   }
 
-const newPromise=Color(heading1,"Hello","red",1000)
+// const newPromise=Color(heading1,"Hello","red",1000)
 
-newPromise.then(()=>{
-return Color(heading2,"Hello","green",1000)
-}).then(()=>{
-    return Color(heading3,"Hello","blue",1000)
-}).then(()=>{
-    return Color(heading4,"Hello","yellow",1000)
-}).then(()=>{
-    return Color(heading5,"Hello","purple",1000)
-}).then(()=>{
-    return Color(heading6,"Hello","pink",1000)
-}).then(()=>{
-    return Color(heading7,"Hello","brown",1000)
-}).catch((err)=>{
-    alert(err)
-})
+// newPromise.then(()=>{
+// return Color(heading2,"Hello","green",1000)
+// }).then(()=>{
+//     return Color(heading3,"Hello","blue",1000)
+// }).then(()=>{
+//     return Color(heading4,"Hello","yellow",1000)
+// }).then(()=>{
+//     return Color(heading5,"Hello","purple",1000)
+// }).then(()=>{
+//     return Color(heading6,"Hello","pink",1000)
+// }).then(()=>{
+//     return Color(heading7,"Hello","brown",1000)
+// }).catch((err)=>{
+//     alert(err)
+// })
+
+//ClEAR MODIFICATION
+Color(heading1,"Hello","red",1000)
+   .then(()=>Color(heading2,"Hello","green",1000))
+   .then(()=>Color(heading3,"Hello","blue",1000))
+   .then(()=>Color(heading4,"Hello","yellow",1000))
+   .then(()=>Color(heading5,"Hello","purple",1000))
+   .then(()=>Color(heading6,"Hello","pink",1000))
+   .then(()=>Color(heading7,"Hello","brown",1000))
+   .catch((err)=>alert(err))
