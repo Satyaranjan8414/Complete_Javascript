@@ -1,7 +1,7 @@
 // console.log("Hello from script")
 //Json-JavaScript Object Notation 
 
- const url="https://jsonplaceholder.typicode.com/postss"
+ const url="https://jsonplaceholder.typicode.com/posts"
 
 // const xhr = new XMLHttpRequest();
 
@@ -36,6 +36,9 @@ if(xhr.status >= 200 && xhr.status<300){
     alert("Plaese check the URL")
 }
     
+}
+xhr.onerror=()=>{
+    console.log("please check the Network connection")
 }
 xhr.send()
 
