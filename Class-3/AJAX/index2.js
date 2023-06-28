@@ -3,7 +3,12 @@
 const url="https://jsonplaceholder.typicode.com/posts";
 
 fetch(url).then(response=>{
-    return response.json();
+    if(response.ok){
+        return response.json();
+    }else{
+        throw new Error("Something went wrong");
+    }
+    
 }).then(data=>{
     console.log(data)
 }).catch(err=>{
