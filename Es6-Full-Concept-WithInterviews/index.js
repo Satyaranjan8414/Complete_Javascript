@@ -134,3 +134,9 @@
 
 // fruit("apple","Banana","orange","mango","crispy",test);
 
+//Array Destrucurin
+
+let fruit=["apple","banana","kiwi"]
+
+let [fruit1,,fruit3]=fruit
+console.log(fruit1,fruit3)
