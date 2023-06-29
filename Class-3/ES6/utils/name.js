@@ -1,2 +1,2 @@
 
-export const name="Satya";
+export const fname="satya";

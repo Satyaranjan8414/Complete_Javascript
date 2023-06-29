@@ -1,1 +1,1 @@
-export const age=30;
+export const age="20";

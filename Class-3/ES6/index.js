@@ -1,8 +1,7 @@
-// console.log("Hello from script")
+// console.log("Hello World!");
 
-import { name } from "./utils/name.js";
-import { age } from "./utils/age.js";
+import { fname } from "./utils/name.js";
+import {age} from "utils/age.js"
 
-console.log(name,age)
-
-console.log("Hello Developers")
+console.log(fname);
+console.log(age);
