@@ -109,4 +109,28 @@
 
 // console.log(fruitcall.getFruits())
 
+// let data={
+//     list:'friends',
+//     friend:["satya","mike","monster"],
+//     getfriend:function(){
+       
+//         this.friend.map((item)=>{
+//             console.log(this.list,item)
+//         })
+//     }
+
+// };
+
+// data.getfriend()
+
+
+
+// function fruit(c,...a){
+//     console.log("Fruit",a)
+// }
+// function test(){
+//     console.log("test")
+// }
+
+// fruit("apple","Banana","orange","mango","crispy",test);
 
