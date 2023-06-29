@@ -54,35 +54,35 @@
 
 // Inheritance
 
-class color {
-  black() {
-    return "The color is black";
-  }
-  legs() {
-    return "4 legs are there";
-  }
-}
+// class color {
+//   black() {
+//     return "The color is black";
+//   }
+//   legs() {
+//     return "4 legs are there";
+//   }
+// }
 
-class animal extends color {
-  constructor() {
-    super();
-    console.log("constructor");
-  }
-  eat() {
-    console.log("eat");
-  }
-  sleep() {
-    console.log("sleep");
-  }
-}
+// class animal extends color {
+//   constructor() {
+//     super();
+//     console.log("constructor");
+//   }
+//   eat() {
+//     console.log("eat");
+//   }
+//   sleep() {
+//     console.log("sleep");
+//   }
+// }
 
-let animalcall = new animal();
-let call = new color();
+// let animalcall = new animal();
+// let call = new color();
 
- console.log(animalcall.legs());
-animalcall.eat();
-animalcall.sleep();
-call.legs();
+//  console.log(animalcall.legs());
+// animalcall.eat();
+// animalcall.sleep();
+// call.legs();
 
 // class category{
 //     dryfruit(){
@@ -108,3 +108,5 @@ call.legs();
 // fruitcall.dryfruit()
 
 // console.log(fruitcall.getFruits())
+
+
