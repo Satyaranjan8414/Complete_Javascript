@@ -1,7 +1,6 @@
 // console.log("Es6 Series")
 //Use of var and let instead
 
-
 // for(var i=0;i<10;i++){
 //     setTimeout(()=>{
 //         console.log(i)
@@ -31,7 +30,6 @@
 // let code=`${quote} ${by} `
 // console.log(code)
 
-
 //Find and findindex function
 // let arr=[
 //     {id:10},
@@ -54,37 +52,59 @@
 // let getFruits= new Fruits()
 // // console.log(getFruits)
 
-
 // Inheritance
 
-class color{
-    black(){
-        return "The color is black"
-    }
-    legs(){
-        console.log("4 legs are there")
-    }
+class color {
+  black() {
+    return "The color is black";
+  }
+  legs() {
+    return "4 legs are there";
+  }
 }
 
-class animal{
-    
-    constructor(){
-       
-            console.log("constructor")
-        }
-    eat(){
-        console.log("eat")
-    }
-    sleep(){
-        console.log("sleep")
-    }
+class animal extends color {
+  constructor() {
+    super();
+    console.log("constructor");
+  }
+  eat() {
+    console.log("eat");
+  }
+  sleep() {
+    console.log("sleep");
+  }
 }
 
-let animalcall= new animal()
-let call= new color()
+let animalcall = new animal();
+let call = new color();
 
-// animalcall.legs()
-animalcall.eat()
-animalcall.sleep()
-call.legs()
+ console.log(animalcall.legs());
+animalcall.eat();
+animalcall.sleep();
+call.legs();
 
+// class category{
+//     dryfruit(){
+//         console.log("dryfruit")
+//     }
+//     pomeFruit(){
+//         console.log("Apple Is Pome Fruit")
+//     }
+// }
+
+// class fruit extends category{
+//     constructor(){
+//         super();
+//         console.log("constructor")
+//     }
+//     getFruits(){
+//         return "You got Apple!"
+//     }
+// }
+
+// let fruitcall= new fruit()
+// let cat=new category()
+// fruitcall.dryfruit()
+
+// console.log(fruitcall.getFruits())
