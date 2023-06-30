@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('bg.jpg') no-repeat ;
+    background: url('background.jpg') no-repeat ;
     background-size: cover;
     background-position:center ;
 }
@@ -178,7 +178,7 @@ header{
     margin-right: 3px;
 }
 .remember-forgot a{
-    color: #9fb1be;
+    color: #124970;
     text-decoration: none;
 }
 
@@ -200,7 +200,7 @@ header{
 
 .login-register{
     font-size: .9em;
-    color: #698da8;
+    color: #051e31;
     text-align:center;
     font-weight: 500;
     margin: 25px 0px 10px;
@@ -208,7 +208,7 @@ header{
 }
 
 .login-register p a{
-    color: #6ba8d6;
+    color: #07304e;
     text-decoration: none;
     font-weight: 600;
 }
@@ -256,6 +256,21 @@ header{
 .wrapper.active .from-box.Register{
     transition: transform .18s ease;
     transform: translateX(0);
+}
+
+/* .icons{
+    border: 2px solid purple ;
+} */
+
+/* .logo{
+    border: 1px solid green;
+} */
+.logo img{
+    width: 25%;
+    height: 15%;
+    border-radius: 50%;
+    position: relative;
+    right: 100px;
 }
 
 
